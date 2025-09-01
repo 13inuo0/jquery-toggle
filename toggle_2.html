@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="js/jquery-1.12.3.js"></script>
+    <script src="js/toggle-2.js"></script>
+    <style>
+      .box {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 30px;
+        text-align: center;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+      }
+      /* .bg{
+        background-color: blueviolet !important;
+      } */
+      .active {
+        opacity: 1;
+        visibility: visible;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="btn">클릭해서 보기</button>
+    <div class="box">안녕하세요!</div>
+  </body>
+</html>
