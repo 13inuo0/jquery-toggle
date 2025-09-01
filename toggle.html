@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- jQuery 라이브러리 연결 -->
+    <script src="js/jquery-1.12.3.js"></script>
+    <!-- 본인 기능 자바스크립트 연결 -->
+    <script src="js/toggle.js"></script>
+    <style>
+      #box {
+        width: 200px;
+        height: 200px;
+        background-color: pink;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        /* display: none; */
+      }
+      .hidden {
+        /* display: block; */
+        background-color: royalblue !important;
+        border-radius: 50%;
+        border: 3px dotted red;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="btn">클릭해서 보기</button>
+    <div id="box">안녕하세요!</div>
+  </body>
+</html>
